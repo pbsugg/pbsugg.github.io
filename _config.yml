@@ -1,0 +1,13 @@
+# Site settings
+title: Philip Sugg
+email: pbensugg@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Personal website for Philip Sugg
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: philip_sugg
+github_username:  pbsugg
+linkedin_username: philipbsugg
+
+# Build settings
+markdown: kramdown
