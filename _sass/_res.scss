@@ -1,0 +1,41 @@
+.resume_wrapper{
+  border-left: 1px solid $grey-color-light;
+  border-right: 1px solid $grey-color-light;
+
+}
+
+.major_page{
+  margin-right: $spacing-unit;
+  margin-left: $spacing-unit;
+}
+
+.res_title{
+  font-weight: bold;
+  color: $grey-color;
+  text-decoration: underline;
+}
+
+.major_page li span{
+  font-weight: bold;
+}
+
+.res_degree {
+  text-indent: $spacing-unit / 3
+}
+
+.res_degree span {
+
+  font-style: italic;
+
+}
+
+#about_page {
+  margin-top: $spacing-unit;
+}
+
+#about_photo{
+  height: 200px;
+  float: left;
+  margin-right: $spacing-unit;
+
+}
