@@ -1,1 +1,1 @@
-The source code for philipsugg.com
+The source code for [www.philipsugg.com](www.philipsugg.com), hosted via [Jekyll](https:/jekyllrb.com)
