@@ -13,10 +13,28 @@
 
  }
 
+
+//my additions
+
+#contacts{
+  padding-top: $spacing-unit ;
+  padding-bottom: $spacing-unit;
+  text-align: center;
+}
+
+#personal-title{
+  font-family: raleway;
+  font-size: 20px;
+  margin-left: $spacing-unit * 5;
+  margin-top: $spacing-unit / 2;
+}
+
+//
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-top: 1px solid #606060 ;
+    border-bottom: $grey-color-light ;
     min-height: 56px;
+    background-color: #E8E8E8;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -106,8 +124,11 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit  / 10;
+  border-top: #F8F8F8;
+  padding: $spacing-unit  / 10;
+  background-color: #F0F0F0;
+  height: 500px;
+
 }
 
 .site-footer li{
@@ -123,10 +144,11 @@
 .social-media-list {
     list-style: none;
     margin-left: 0;
+    float: right;
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
+    font-size: 12px;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
@@ -138,19 +160,22 @@
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    color: #585858;
+    float: left;
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
     width:         calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
+    float: left;
     width: -webkit-calc(40% - (#{$spacing-unit} / 2));
     width:         calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
     float: right;
-    width: -webkit-calc(15% - (#{$spacing-unit} / 2));
-    width:         calc(15% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -180,10 +205,12 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding-top: $spacing-unit 0;
 }
 
 .page-heading {
+
+    font-family: raleway;
     font-size: 20px;
 }
 
@@ -197,6 +224,7 @@
 }
 
 .post-meta {
+
     font-size: $small-font-size;
     color: $grey-color;
 }
@@ -206,18 +234,18 @@
     font-size: 24px;
 }
 
-
-
 /**
  * Posts
  */
 .post-header {
+    margin-top: $spacing-unit;
     margin-bottom: $spacing-unit;
 }
 
 .post-title {
     font-family: 'raleway';
-    font-size: 42px;
+    font-size: 25px;
+    font-weight: bold;
     letter-spacing: -1px;
     line-height: 1;
 
@@ -228,6 +256,9 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+
+    padding-left: $spacing-unit;
+    padding-right: $spacing-unit ;
 
     h2 {
         font-size: 32px;
