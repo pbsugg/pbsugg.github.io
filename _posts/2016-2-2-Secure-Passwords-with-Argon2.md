@@ -6,7 +6,7 @@ Brief summary-options
 
 How fast is it?  
   Benchmark against some other common encryption algorithms
-    bcrypyt, scrypt (another memory)
+    argon2, bcrypyt, scrypt (another memory)
   Look at memory costs--compare claims to actual
   Compare C algorithms to Python binding
 
