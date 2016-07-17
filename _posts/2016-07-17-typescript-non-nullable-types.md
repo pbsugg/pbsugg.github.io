@@ -1,4 +1,7 @@
-
+---
+type: post
+title: Non-Nullable Types in TypeScript Beta 2.0
+---
 
 
 As part of an (Angular 2 side project)[https://github.com/pbsugg/NoteBlog] over the last several months, I've had a chance to use Microsoft's (TypeScript)[https://www.typescriptlang.org], a Javascript superset language that is fully compatible with and compiles to Javascript. TypeScript supports many of the newest features of the ECMAScript 6 (2015) standard like a more recognizable class and module syntax, and it continues in the tradition of other transcompilers like CoffeeScript (i.e., a Ruby-to-Javascript system) that allow developers to use the more explicit, object oriented functionality of another language to make working with Javascript a bit easier. Most importantly, since Angular 2 is a front-end Javascript framework that is built in TypeScript, it has clearly convinced some important developers that it has a role to play in Javascript's future. That was enough to make me want to dip my toes in it.  TypeScript doesn't have a steep learning curve, and one quickly finds that it retains a lot of Javascript's syntax conventions, with one major difference that TypeScript's name makes clear: static typing.  
