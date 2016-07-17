@@ -1,6 +1,6 @@
 ---
 type: post
-title: Non-Nullable Types in TypeScript Beta 2.0
+title: Non-Nullable Types in TypeScript 2.0
 ---
 
 
