@@ -11,3 +11,5 @@ linkedin_username: philipbsugg
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
