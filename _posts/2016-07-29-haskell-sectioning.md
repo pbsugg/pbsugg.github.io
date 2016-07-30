@@ -64,4 +64,4 @@ True
 
 And there's our answer! It returns `True`.  We've effectively reversed the way that map deals with its arguments through careful use of `$`'s properties as an infix section'. `f` becomes our value and the the list becomes our function, and we can turn them back around at the point of evaluation to make them evaluate in the correct order using `($ x)` to re-configure our arguments.
 
-[Sections and Infix Operators] (https://wiki.haskell.org/Section_of_an_infix_operator)
+[Sections and Infix Operators](https://wiki.haskell.org/Section_of_an_infix_operator)
