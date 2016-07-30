@@ -49,16 +49,16 @@ We can take these properties of infix operators within sections and use them to 
 
 ```haskell
 map ($ 31) funcList
-($ 31) (> 2)
+($ 31) (> 0)
 ```
 
 For our first predicate, which is equivalent to
 
 ```haskell
-($ 31) (> 2)
+($ 31) (> 0)
 (\x -> x $ 31)
-(> 2) $ 31
-(> 2) 31
+(> 0) $ 31
+(> 0) 31
 True
 ```
 
