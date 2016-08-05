@@ -21,16 +21,25 @@ In the [demo](https://techcrunch.com/2016/05/09/siri-creator-shows-off-first-pub
 
 As I watched the demo, I was already forming a mental map of how I would need to structure my speech in order to make it click with a Viv-like interface.  Let's break up one statement into key "triggers:"
 
-  Will it bei\n
-  warmer than\n
-  70 degrees\n
-  near the\n
-  Golden Gate Bridge\n
-  after\n
-  5 pm\n
-  the day\n
-  after\n
-  tomorrow\n
+  Will it be
+
+  warmer than
+
+  70 degrees
+
+  near the
+
+  Golden Gate Bridge
+
+  after
+
+  5 pm
+
+  the day
+
+  after
+  
+  tomorrow
 
 Kittlaus also gives us a look behind the scenes, where we saw a graph of how the Viv interface parsed the speech into a "dynamically generated" set of methods and function calls in the correct order, an on-the-spot, fully-coded algorithm for passing instructions to the app.  But the user probably didn't need to see this slide--just the demo--to understand the level of precision and ambiguity that the Viv interface would tolerate.  The response of the bot itself has to convey to us the limits of the interface.  Viv fills out the appropriate fields in the weather app, and we see the command come to life.
 
