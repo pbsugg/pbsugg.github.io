@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bots and Unstructured Interfaces`
+title: Bots and Unstructured Interfaces
 ---
 
 I recently attended an event in Chicago about building a simple chatbot of one's own.  Everyone wants a pet chatbot these days.  Bots are an eye-catching subject of discussion, from events and endless simple tutorials to a startlingly large number of [frameworks](https://dev.botframework.com/) and [platforms](http://www.pandorabots.com/) that have come a long way in the past year. The most enthusiastic bot boosters suggest that the need for more bots is so urgent that we should enable even those without any coding knowledge to [build and deploy them](https://chatfuel.com/)!  
@@ -54,21 +54,3 @@ All this leads me to three big considerations about creating structure in a bot 
 3.  Sophistication in an unstructured bot interface is inherently invisible and unstable.  A cool feature that is buried in the tree of possible user interactions might go unnoticed. And one failure can be more visible--and more discouraging to future investment in bots-- than a hundred wins. If you want to build a bot, think through how you would communicate its sophistication to your organization to justify further investment.  If you start with a small set of capabilities and gradually build them up, how will you keep showing off the bot's new powers to your users?
 
 With the growing powers of NLP tools, bots offer a lot of promise, but the linguistic paradigm presents a new set of challenges for interface design.
-
-
-
-
-
-
-Lessons:
-  Be sure of your domain; aim low to begin with; don't have to be sophisticated if can do *one* thing well!
-  Communicate the value--should it know the time? What can I reasonably be expected to know?
-  Generate *trust* in the app.
-  If you can do something cool, be upfront about it; spend time with examples
-  Sophistication is invisible and unstable--how does an organization justify investment?
-
-
-
-
-
-See Matt Schlicht's [recent post](https://chatbotsmagazine.com/the-complete-beginner-s-guide-to-chatbots-8280b7b906ca#.6mpygm2w1) for a nice rundown of the options, and watch his [twitter feed](https://twitter.com/MattPRD?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) which has been particularly active on this front.
