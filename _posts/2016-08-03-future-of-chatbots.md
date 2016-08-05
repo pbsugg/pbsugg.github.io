@@ -19,18 +19,18 @@ Let's just call a bot any system with an unstructured, natural language interfac
 
 In the [demo](https://techcrunch.com/2016/05/09/siri-creator-shows-off-first-public-demo-of-viv-the-intelligent-interface-for-everything/) that is part of Viv's unveiling, we basically get a system that is good at taking complicated, multi-part voice commands and turning them into actionable queries for multiple other apps.  First you ask it the weather (4:45), then the weather a few weeks from now (5:20), then we move into  complex queries with multiple qualifications (5:55): "Will it be hotter than X temperature at Y location after Z time..."  Once the presenter orders a taxi and flowers, it becomes clear what it means for Viv to be an "interface to anything."  Viv aspires to be the universal translator for other apps, the most intelligent form-filler, box-checker, and command builder for graphical interfaces, ever.  Viv, its creator Dag Kittlaus says, will one day be as ubiquitous as the bluetooth symbol on your smartphone screen.  His demo is all about setting expectations.  Although it was very impressive to see what sorts of complexities Viv could handle, it was also clear what the triggers were: prepositions (after X, before Y,) and recognizable nouns with clear referents (times, places, names).
 
-As I watched the demo, I was already forming a mental map of how I would need to structure my speech in order to make it click with a Viv-like interface.  Let's break up one statement into key lines:
+As I watched the demo, I was already forming a mental map of how I would need to structure my speech in order to make it click with a Viv-like interface.  Let's break up one statement into key "triggers:"
 
-  Will it be
-  warmer than
-  70 degrees
-  near the
-  Golden Gate Bridge
-  after
-  5 pm
-  the day
-  after
-  tomorrow
+  Will it bei\n
+  warmer than\n
+  70 degrees\n
+  near the\n
+  Golden Gate Bridge\n
+  after\n
+  5 pm\n
+  the day\n
+  after\n
+  tomorrow\n
 
 Kittlaus also gives us a look behind the scenes, where we saw a graph of how the Viv interface parsed the speech into a "dynamically generated" set of methods and function calls in the correct order, an on-the-spot, fully-coded algorithm for passing instructions to the app.  But the user probably didn't need to see this slide--just the demo--to understand the level of precision and ambiguity that the Viv interface would tolerate.  The response of the bot itself has to convey to us the limits of the interface.  Viv fills out the appropriate fields in the weather app, and we see the command come to life.
 
