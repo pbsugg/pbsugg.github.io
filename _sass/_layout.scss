@@ -74,6 +74,7 @@
     }
 
     @include media-query($on-palm) {
+        z-index:10;
         position: absolute;
         top: 9px;
         right: 30px;
@@ -193,9 +194,9 @@
 
 @include media-query($on-palm) {
     .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        float: left;
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
     }
 }
 
