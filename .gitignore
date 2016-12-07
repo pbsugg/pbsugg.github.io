@@ -1,3 +1,6 @@
 _site
 .sass-cache
-local/*
+_drafts/*
+projects.html
+reading.html
+

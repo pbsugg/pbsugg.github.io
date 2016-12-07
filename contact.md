@@ -11,10 +11,10 @@ permalink: /contact/
    <div id ="contact-methods">
    And find me on these networks:<br>
    / <a href="https://www.linkedin.com/in/philipbsugg">LinkedIn</a> /     
-   <a href="https://www.github.com/pbsugg">Github</a> /
-    <a href="https://gitlab.com/pbsugg">GitLab</a> /
+   <a href="https://twitter.com/philip_sugg">Twitter</a> /
+    <a href="https://www.github.com/pbsugg">Github </a>  /
     <br>
-   / <a href="https://twitter.com/philip_sugg">Twitter</a> /
+   / <a href="https://gitlab.com/pbsugg">GitLab</a> /
     <a href="http://stackoverflow.com/users/5273100/pbsugg">Stack Overflow</a> /
 
 
